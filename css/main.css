@@ -1,0 +1,183 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Montserrot', sans-serif;
+}
+
+p {
+	line-height: 1.6em;
+	margin: 0;
+	margin-top: 10px;
+}
+.container {
+	width: 1170px;
+	margin: auto
+}
+
+
+.header {
+background: rgba(78,192,254,1);
+background: -moz-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+background: -webkit-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+background: linear-gradient(135deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=1 );
+padding-top: 60px;
+color: #fff;
+}
+
+.offer {
+	width: 560px;
+	text-align: center;
+}
+
+.wrapper {
+display: flex;
+justify-content: space-between;
+}
+
+.dream {
+font-size: 59px;
+}
+
+.offer p {
+width: 400px;
+margin-top: 30px;
+}
+
+.btn {
+	background-color: #ffd429;
+	border-radius: 0;
+	width: 220px;
+	padding: 20px 0;
+	display: block;
+	color: black;
+	font-family: 'Montserrot', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 40px;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #cfab1e;
+}
+
+.desktop {
+	margin-top: 50px;
+	padding-bottom: 145px;
+}
+
+.journey {
+	padding-top: 110px;
+	padding-bottom: 120px;
+}
+
+.section_title {
+	text-align: center;
+}
+
+.good_rest {
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.rest {
+	text-align: center;
+	font-size: 15px;
+	background: url('../img/icon1.png') no-repeat top;
+	padding-top: 90px;
+	width: 290px;
+}
+
+.good_journey {
+	background: url('../img/icon2.png')no-repeat top;
+	width: 270px;
+}
+.values {
+	background: url('../img/icon3.png')no-repeat top;
+	width: 300px;
+}
+
+.mail {
+	background-color: #ecf3f8;
+	padding-top: 105px;
+	padding-bottom: 100px;
+}
+
+.form {
+padding-top: 60px;
+}
+
+.input {
+	width: 340px;
+	padding: 15px 0 15px 15px ;
+	display: block;
+	margin: 15px auto;
+	border: 1px solid  #bbbbbb;
+	border-radius: 2px;
+}
+
+.mail_button {
+	width: 355px;
+	margin: 15px auto;
+	border: none;
+}
+
+.footer {
+	background-color: #164d7a;
+	color: white;
+	padding: 65px 0;
+	text-align: center;
+}
+
+/*Responsive*/
+
+/*992-1200px*/
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 950px;
+	}
+}
+
+/*768-992px*/
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.offer, .offer p {
+		width: auto;
+	}
+
+}
+
+/*576-768*/
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+}
+
+/*0-576*/
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.input {
+		width: 90%;
+	}
+	.mail_button {
+		width: 95%;
+	}
+}
